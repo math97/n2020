@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="164" id="KGk-i7-Jjw" customClass="ConsultasTableViewCell" customModule="N2020" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="164"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="164"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9v-tv-d5Q">
+                        <rect key="frame" x="10" y="0.0" width="347" height="170"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kx-e9-U60">
+                                <rect key="frame" x="15" y="42.5" width="38.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 Junho" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s55-Bw-lgK">
+                                <rect key="frame" x="15" y="17" width="72" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0G-jp-aXX">
+                                <rect key="frame" x="97" y="15" width="1" height="140"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="jt4-eD-TxT"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jIw-wh-WwR">
+                                <rect key="frame" x="108" y="10" width="219" height="115.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consulta | Problemas intestinais" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="553-78-DMh">
+                                        <rect key="frame" x="0.0" y="0.0" width="219" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Milton Paes - Alergia e Imunologia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8b-4T-QDw">
+                                        <rect key="frame" x="0.0" y="38.5" width="219" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endereço: Rua Escravos de Jó, 255" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ig-WS-hMW">
+                                        <rect key="frame" x="0.0" y="77" width="219" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nsM-S2-1qb">
+                                <rect key="frame" x="108" y="130" width="219" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jo9-0y-NQ1">
+                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dlb-Kd-apS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                        <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Mais informações">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAf-I2-pJe">
+                                        <rect key="frame" x="119.5" y="0.0" width="99.5" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                        <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Entre em contato">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nsM-S2-1qb" firstAttribute="leading" secondItem="v0G-jp-aXX" secondAttribute="trailing" constant="10" id="0e6-mg-cv3"/>
+                            <constraint firstItem="9kx-e9-U60" firstAttribute="top" secondItem="s55-Bw-lgK" secondAttribute="bottom" constant="5" id="Ca7-88-dhX"/>
+                            <constraint firstAttribute="bottom" secondItem="nsM-S2-1qb" secondAttribute="bottom" constant="10" id="Cep-D7-5gG"/>
+                            <constraint firstItem="jIw-wh-WwR" firstAttribute="leading" secondItem="v0G-jp-aXX" secondAttribute="trailing" constant="10" id="Odn-jx-Cfe"/>
+                            <constraint firstItem="s55-Bw-lgK" firstAttribute="leading" secondItem="K9v-tv-d5Q" secondAttribute="leading" constant="15" id="QYn-ge-MrX"/>
+                            <constraint firstItem="9kx-e9-U60" firstAttribute="leading" secondItem="K9v-tv-d5Q" secondAttribute="leading" constant="15" id="SaY-QR-rfM"/>
+                            <constraint firstItem="s55-Bw-lgK" firstAttribute="top" secondItem="K9v-tv-d5Q" secondAttribute="top" constant="17" id="TXg-vK-fFH"/>
+                            <constraint firstAttribute="height" constant="170" id="Xx8-Ky-Mne"/>
+                            <constraint firstItem="v0G-jp-aXX" firstAttribute="top" secondItem="K9v-tv-d5Q" secondAttribute="top" constant="15" id="a2O-KG-2Eb"/>
+                            <constraint firstAttribute="bottom" secondItem="v0G-jp-aXX" secondAttribute="bottom" constant="15" id="bDY-vZ-CXf"/>
+                            <constraint firstItem="v0G-jp-aXX" firstAttribute="leading" secondItem="s55-Bw-lgK" secondAttribute="trailing" constant="10" id="bUl-bb-f9l"/>
+                            <constraint firstItem="jIw-wh-WwR" firstAttribute="top" secondItem="K9v-tv-d5Q" secondAttribute="top" constant="10" id="i0X-qm-iyb"/>
+                            <constraint firstItem="nsM-S2-1qb" firstAttribute="top" relation="lessThanOrEqual" secondItem="jIw-wh-WwR" secondAttribute="bottom" constant="50" id="iqg-ex-NQ9"/>
+                            <constraint firstAttribute="trailing" secondItem="nsM-S2-1qb" secondAttribute="trailing" constant="20" id="rag-7c-wEQ"/>
+                            <constraint firstAttribute="trailing" secondItem="jIw-wh-WwR" secondAttribute="trailing" constant="20" id="zxo-ot-B7g"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="K9v-tv-d5Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1rc-Qf-Yy1"/>
+                    <constraint firstAttribute="trailing" secondItem="K9v-tv-d5Q" secondAttribute="trailing" constant="10" id="X8H-nc-FfF"/>
+                    <constraint firstItem="K9v-tv-d5Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="a3o-DY-iQr"/>
+                    <constraint firstAttribute="bottom" secondItem="K9v-tv-d5Q" secondAttribute="bottom" constant="10" id="ter-da-xd5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn1" destination="jo9-0y-NQ1" id="hW4-qQ-hqs"/>
+                <outlet property="btn2" destination="EAf-I2-pJe" id="jH4-oJ-z03"/>
+                <outlet property="dataLabel" destination="s55-Bw-lgK" id="ao7-kz-a0q"/>
+                <outlet property="diaLabel" destination="9kx-e9-U60" id="NR6-UK-3XB"/>
+                <outlet property="doutorLabel" destination="I8b-4T-QDw" id="rJj-IZ-ekj"/>
+                <outlet property="enderecoLabel" destination="6ig-WS-hMW" id="l0C-Xf-7Bs"/>
+                <outlet property="tituloLabel" destination="553-78-DMh" id="541-1H-wCV"/>
+                <outlet property="viewExterna" destination="K9v-tv-d5Q" id="S5C-vN-VKw"/>
+            </connections>
+            <point key="canvasLocation" x="165.94202898550725" y="28.125"/>
+        </tableViewCell>
+    </objects>
+</document>
